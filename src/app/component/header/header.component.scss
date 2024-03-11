@@ -1,0 +1,10 @@
+
+h1{
+    background-color: green;
+}
+.card{
+    display: flex;
+}
+::ng-deep .mat-card-title {
+    color: red;   
+}
