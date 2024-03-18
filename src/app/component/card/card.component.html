@@ -17,3 +17,16 @@
       <button mat-button>SHARE</button>
     </mat-card-actions>
   </mat-card>
+
+  <!-- <div>Test  Div</div>
+  <ng-template> Ng template section</ng-template> -->
+
+  <h3> Div With ngIf else</h3>
+  <div *ngIf="display ; else  elseblock">
+    Div ngIf
+  </div>
+  <hr>
+  <h3>ng Template with ngIf else</h3>
+  <ng-template #elseblock>
+    <div>ngIf display with ng template</div>
+  </ng-template>

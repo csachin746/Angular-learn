@@ -6,7 +6,7 @@ console.log('Header Component Loded...')
   // selector: '.app-header' //Selector As a Class
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss'],
-  encapsulation:ViewEncapsulation.None})
+  })
 export class HeaderComponent {
 
 }
